@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'ubuntu', sans-serif;
+    text-decoration: none;
+}
+
+h1{
+    display: inline;
+    position: absolute;
+    margin: 20px 0 0 10px;
+    color: white;
+    font-size: 17px;
+    font-family: 'Jura', sans-serif;
+}
+
+label[for="bt-menu"]{
+    background-color: #505050;
+    position: absolute;
+    margin-top: -2px;
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    display: none;
+}
+
+footer{
+    display: flex;
+    /* width: 100%; */
+    height: 80px;
+    background-color: #505050;
+    padding: 20px ;
+    font-size: 15px;
+}
+
+
+footer div ul li{
+    list-style-type: none;
+    
+}
+
+footer div ul a{
+    color: inherit;
+    
+}
+
+/* CLASSES NAVBAR */
+
+.menu{
+    width: 100%;
+    height: 55px;
+    background-color: #505050;
+    position: fixed;  
+            
+}
+        
+.menu ul{
+    list-style: none;
+    position: relative;
+    float: right;
+}
+        
+.menu ul li{
+    width: 150px;
+    float: left;
+            
+}
+        
+.menu a{
+    padding: 18px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: #505050;
+    color: white;
+    font-size: 15px;
+    font-family: 'Jura', sans-serif;
+}
+
+footer p{
+    font-size: 15px;
+}
+
+.menu ul a:hover{
+    background-color: #93c52f;
+    color: black;
+}
+        
+        /* ICON DA NAVBAR */
+        
+.icon{
+    margin-left: 20px;
+    margin-top: 5px;
+            
+}
+        /* SECTION 1 */
+.sec1{
+    background-image: url(../img/bkimg.jpg);
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 55px;
+    border-bottom: 10px solid #363538;
+}        
+    /*  */
+.para1{
+    color: white;
+    font-size: 40px;
+    padding-top: 60px;  
+    text-align: center;
+    /* text-shadow: 1px 1px 1px black; */
+}
+
+.para2{
+    color: white;
+    font-size: 23px;
+    font-family: 'Jura', sans-serif;
+    padding-top: 50px;
+    /* text-align: center; */
+    text-shadow: 1px 1px 1px black;
+}
+
+.divServicos1{
+    width: 60%;
+    padding-left: 50px;
+}
+
+        /* SECTION 2 */
+
+.sec2{
+    background-image: url(../img/banner.jpg);
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* padding-top: 55px; */
+    border-bottom: 10px solid #363538;
+
+}
+
+.divServicos2{
+    width: 60%;
+    float: right;
+    padding-right: 50px;
+}
+
+        /* SECTION 3 */
+.sec3{
+    background-image: url(../img/fundo5.jpg);
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* padding-top: 55px; */
+    border-bottom: 10px solid #363538;
+        }
+
+.divServicos3{
+    width: 60%;
+    padding-left: 50px;
+}
+
+
+    /* RODAPÉ */
+
+    footer .rodape {
+        width: calc(33.33% - 13.3px);
+    
+    }
+    
+    
+    .ft-p{
+        font-weight: bold;
+        text-align: center;
+        color: white;
+        
+    }
+    
+    .ft-text{
+        font-size: 13px;
+        color: white;
+        float: left;
+        /* padding-top: 10px; */
+    }
+
+#bt-menu{
+    display: none;
+}

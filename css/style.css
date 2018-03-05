@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'ubuntu', sans-serif;
+    text-decoration: none;
+}
+
+h1{
+    display: inline;
+    position: absolute;
+    margin: 20px 0 0 10px;
+    color: white;
+    font-size: 17px;
+    font-family: 'Jura', sans-serif;
+}
+
+
+label[for="bt-menu"]{
+    background-color: #505050;
+    position: absolute;
+    margin-top: -2px;
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    display: none;
+}
+
+/* div{
+    text-align: center;
+} */
+
+footer{
+    display: flex;
+    /* width: 100%; */
+    height: 80px;
+    background-color: #505050;
+    padding: 20px ;
+    font-size: 15px;
+}
+
+
+footer div ul li{
+    list-style-type: none;
+    
+}
+
+footer div ul a{
+    color: inherit;
+    
+}
+
+/* CLASSES NAVBAR */
+
+.menu{
+    width: 100%;
+    height: 55px;
+    background-color: #505050;
+    position: fixed;  
+            
+}
+        
+.menu ul{
+    list-style: none;
+    position: relative;
+    float: right;
+}
+        
+.menu ul li{
+    width: 150px;
+    float: left;
+            
+}
+        
+.menu a{
+    padding: 18px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: #505050;
+    color: white;
+    font-size: 15px;
+    font-family: 'Jura', sans-serif;
+}
+
+footer p{
+    font-size: 15px;
+}
+
+.menu ul a:hover{
+    background-color: #93c52f;
+    color: black;
+}
+        
+        /* ICON DA NAVBAR */
+        
+.icon{
+    margin-left: 20px;
+    margin-top: 5px;
+            
+}
+
+        /* BANNER DA PAGINA */
+
+.sec1{
+    background-image: url(../img/fundo3.jpg);
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}        
+
+        /* ELEMENTOS DA SECTION 1 */
+
+.bp{
+    /* margin-left: 396px; */
+    margin-left: 30.9375%;
+}
+
+.para1{
+    color: white;
+    font-size: 60px;
+    padding-top: 165px;  
+    text-align: center;
+    /* text-shadow: 1px 1px 1px black; */
+}
+
+.buto1{
+    width: 325px;
+    height: 55px;
+    margin-left: 38%;
+    margin-top: 100px;
+    border: 2px solid #505050;;
+    background-color: #93c52f;
+    border-radius: 10px;
+    /* align-items: center; */
+}
+
+.para2{
+    color: white;
+    font-size: 23px;
+    font-family: 'Jura', sans-serif;
+    padding-top: 50px;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+
+.ab{
+    text-decoration: none;
+    color: #505050;
+    font-size: 27px;
+    font-family: 'Jura', sans-serif;
+    font-weight: bold;
+}
+
+footer .rodape {
+    width: calc(33.33% - 13.3px);
+
+}
+
+
+.ft-p{
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    
+}
+
+.ft-text{
+    font-size: 13px;
+    color: white;
+    float: left;
+    /* padding-top: 10px; */
+}
+
+#bt-menu{
+    margin-top: 67px;
+    position: absolute;
+    
+    display: none;
+}
+
+@media(max-width: 800px){
+    .menu ul{
+        display: none;
+    }
+
+    h1{
+        display: none;
+    }
+
+    .icon{
+        margin-left: 48%;
+        margin-top: 7px;
+    }
+
+    label[for="bt-menu"]{
+        display: block; 
+    }
+}
